@@ -28,7 +28,7 @@ _A list of my commonly used Git commands_
 | `git show-branch *master` | Will show you the commits in all of the branches whose names end in 'master' (eg master and origin/master) |
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
-| `git reset HEAD -- <file name>` | To unstage a file added but git add command|
+| `git reset HEAD -- <file name>` | To unstage a file added by "git add" command|
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
