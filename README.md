@@ -28,6 +28,7 @@ _A list of my commonly used Git commands_
 | `git show-branch *master` | Will show you the commits in all of the branches whose names end in 'master' (eg master and origin/master) |
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
+| `git reset HEAD -- <file name>` | To unstage a file added but git add command|
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
@@ -72,3 +73,8 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+| `git log --graph --decorate --all` | Displays all log references in a decorated graph format |
+| `git log --graph --oneline --decorate --all` Displays all log references in a single line decorated graph format  |
+| `git diff --staged` | Will show changes to files in the "staged" area. |
+| `git diff HEAD` | Will show all changes to tracked files. If you have all changes staged for commit, then both commands will output the same |
+
