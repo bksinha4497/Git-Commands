@@ -74,7 +74,7 @@ _A list of my commonly used Git commands_
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
 | `git log --graph --decorate --all` | Displays all log references in a decorated graph format |
-| `git log --graph --oneline --decorate --all` Displays all log references in a single line decorated graph format  |
+| `git log --graph --oneline --decorate --all`| Displays all log references in a single line decorated graph format  |
 | `git diff --staged` | Will show changes to files in the "staged" area. |
 | `git diff HEAD` | Will show all changes to tracked files. If you have all changes staged for commit, then both commands will output the same |
 
