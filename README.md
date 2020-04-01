@@ -24,6 +24,8 @@ _A list of my commonly used Git commands_
 | Command | Description |
 | ------- | ----------- |
 | `git status` | Check status |
+| `git status -uno` | Will tell you whether the branch you are tracking is ahead, behind or has diverged. If it says nothing, the local and remote are the same |
+| `git show-branch *master` | Will show you the commits in all of the branches whose names end in 'master' (eg master and origin/master) |
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
