@@ -28,7 +28,7 @@ _A list of my commonly used Git commands_
 | `git show-branch *master` | Will show you the commits in all of the branches whose names end in 'master' (eg master and origin/master) |
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
-| `git reset HEAD -- <file name>` | To unstage a file added by "git add" command|
+| `git reset HEAD -- [file name]` | To unstage a file added by "git add" command|
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
@@ -40,8 +40,9 @@ _A list of my commonly used Git commands_
 | `git branch -a` | List all branches (local and remote) |
 | `git branch [branch name]` | Create a new branch |
 | `git branch -d [branch name]` | Delete a branch |
-| `git branch -m <oldname> <newname>` | Rename a local branch |
-| `git branch -m <newname>` | Rename the current branch |
+| `git branch -m [oldname] [newname]` | Rename a local branch |
+| `git branch -m [newname]` | Rename the current branch |
+| `git checkout -b [new branch] [remote branch]` | To checkout nee branch from remote |
 | `git push origin --delete [branch name]` | Delete a remote branch |
 | `git checkout -b [branch name]` | Create a new branch and switch to it |
 | `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
@@ -51,8 +52,8 @@ _A list of my commonly used Git commands_
 | `git checkout -- [file-name.txt]` | Discard changes to a file |
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
-| `git cherry-pick <HASH>` | Cherry pick and merge the commit ID  to current branch and commit the changes |
-| `git cherry-pick -n <HASH>` | Cherry pick and merge the commit ID  to current branch without commiting |
+| `git cherry-pick [HASH]` | Cherry pick and merge the commit ID  to current branch and commit the changes |
+| `git cherry-pick -n [HASH]` | Cherry pick and merge the commit ID  to current branch without commiting |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
 
