@@ -86,3 +86,13 @@ _A list of my commonly used Git commands_
 | `git diff --staged` | Will show changes to files in the "staged" area. |
 | `git diff HEAD` | Will show all changes to tracked files. If you have all changes staged for commit, then both commands will output the same |
 
+### Configuration
+
+| Command | Description |
+| ------- | ----------- |
+| `git config --global merge.tool kdiff3` | Configure Kdiff3 as merge tool |
+| `git config --global mergetool.kdiff3.path "C:/Program Files/KDiff3/bin/kdiff3.exe"` | Configure Kdiff3  path |
+| `git config --global mergetool.kdiff3.trustExitCode false`
+| `git config --global diff.guitool kdiff3` | Configure Kdiff3 as diff tol |
+| `git config --global difftool.kdiff3.path "C:/Program Files/KDiff3/bin/kdiff3.exe"`
+| `git config --global difftool.kdiff3.trustExitCode false`
